@@ -19,7 +19,7 @@ def get_user_input():
 # results = run_expert_system(unusual_discharge, vaginal_itching, pain_urination, pain_sex)
 
 results = run_expert_system(
-# vaginal dixcharge
+# vaginal dicharge
     unusual_discharge="y",
     vaginal_itching="y",
     pain_urination="y",
@@ -32,6 +32,7 @@ results = run_expert_system(
 
 # genital ulcer
 	genital_sore="y",
+	# ////// for female too?
     inguinal_swelling="y",
     
 # lower abdomenal pain

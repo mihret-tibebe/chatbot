@@ -14,7 +14,8 @@ def run_expert_system(**kwargs):
 # vaginal discharge symptoms
 	unusual_discharge = kwargs.get('unusual_discharge', "")
 	vaginal_itching = kwargs.get('vaginal_itching', "")
-	pain_urination = kwargs.get('pain_urination', "")
+	# pain_urination = kwargs.get('pain_during_urination', "")
+	pain_during_urination = kwargs.get('pain_during_urination', "")
 	pain_during_sex = kwargs.get('pain_during_sex', "")
 
 # uretheral discharge symptoms
@@ -33,11 +34,10 @@ def run_expert_system(**kwargs):
 	inguinal_swelling = kwargs.get('inguinal_swelling', "")
 
 # lower abdomenal pain
-	pain_below_umbilicus = kwargs.get('inguinal_swelling', "")
+	pain_below_umbilicus = kwargs.get('pain_below_umbilicus', "")
 	fever = kwargs.get('fever', "")
 	vaginal_discharge = kwargs.get('vaginal_discharge', "")
 	missed_menstrual_period = kwargs.get('missed_menstrual_period', "")
-	pain_during_sex = kwargs.get('pain_during_sex', "")
 	vaginal_bleeding = kwargs.get('vaginal_bleeding', "")
 
 # induinal bubo
@@ -90,7 +90,8 @@ def run_expert_system(**kwargs):
 	vd_engine.declare(VaginalDischargeFact(
         unusual_discharge=unusual_discharge,
         vaginal_itching=vaginal_itching,
-        pain_urination=pain_urination,
+        # pain_urination=pain_urination,
+        pain_during_urination=pain_during_urination,
         pain_during_sex=pain_during_sex
     ))
 

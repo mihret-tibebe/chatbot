@@ -8,7 +8,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="y",
             vaginal_itching="y",
-            pain_urination="y",
+            # pain_urination="y",
+            pain_during_urination="y",
             pain_during_sex="y"
         )
         # salience=10  # Higher salience value
@@ -24,7 +25,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="y",
             vaginal_itching="y",
-            pain_urination="y",
+            # pain_urination="y",
+            pain_during_urination="y",
             pain_during_sex="n"
         )
     )
@@ -38,7 +40,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="y",
             vaginal_itching="y",
-            pain_urination="n",
+            # pain_urination="n",
+            pain_during_urination="n",
             pain_during_sex="y"
         )
     )
@@ -52,7 +55,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="y",
             vaginal_itching="n",
-            pain_urination="y",
+            # pain_urination="y",
+            pain_during_urination="y",
             pain_during_sex="y"
         )
     )
@@ -66,7 +70,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="y",
             vaginal_itching="y",
-            pain_urination="n",
+            # pain_urination="n",
+            pain_during_urination="n",
             pain_during_sex="n"
         )
     )
@@ -80,7 +85,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="y",
             vaginal_itching="n",
-            pain_urination="y",
+            # pain_urination="y",
+            pain_during_urination="y",
             pain_during_sex="n"
         )
     )
@@ -94,7 +100,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="y",
             vaginal_itching="n",
-            pain_urination="n",
+            # pain_urination="n",
+            pain_during_urination="n",
             pain_during_sex="y"
         )
     )
@@ -108,7 +115,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="y",
             vaginal_itching="n",
-            pain_urination="n",
+            # pain_urination="n",
+            pain_during_urination="n",
             pain_during_sex="n"
         )
     )
@@ -123,7 +131,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="n",
             vaginal_itching="y",
-            pain_urination="y",
+            # pain_urination="y",
+            pain_during_urination="y",
             pain_during_sex="y"
         )
     )
@@ -137,7 +146,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="n",
             vaginal_itching="y",
-            pain_urination="y",
+            # pain_urination="y",
+            pain_during_urination="y",
             pain_during_sex="n"
         )
     )
@@ -151,7 +161,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="n",
             vaginal_itching="y",
-            pain_urination="n",
+            # pain_urination="n",
+            pain_during_urination="n",
             pain_during_sex="y"
         )
     )
@@ -165,7 +176,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="n",
             vaginal_itching="n",
-            pain_urination="y",
+            # pain_urination="y",
+            pain_during_urination="y",
             pain_during_sex="y"
         )
     )
@@ -179,7 +191,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="n",
             vaginal_itching="y",
-            pain_urination="n",
+            # pain_urination="n",
+            pain_during_urination="n",
             pain_during_sex="n"
         )
     )
@@ -194,7 +207,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="n",
             vaginal_itching="n",
-            pain_urination="y",
+            # pain_urination="y",
+            pain_during_urination="y",
             pain_during_sex="n"
         )
     )
@@ -209,7 +223,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="n",
             vaginal_itching="n",
-            pain_urination="n",
+            # pain_urination="n",
+            pain_during_urination="n",
             pain_during_sex="y"
         )
     )
@@ -223,7 +238,8 @@ class VaginalDischargeSyndrome(KnowledgeEngine):
         VaginalDischargeFact(
             unusual_discharge="n",
             vaginal_itching="n",
-            pain_urination="n",
+            # pain_urination="n",
+            pain_during_urination="n",
             pain_during_sex="n"
         )
     )
